@@ -1,0 +1,61 @@
+Last login: Sun Dec 18 17:16:54 on ttys000
+naoakiinamoto@inamototadashiakiranoMacBook-Pro ~ % cd ~/Desktop/gitUdemy/git_tutorial
+naoakiinamoto@inamototadashiakiranoMacBook-Pro git_tutorial % git diff
+naoakiinamoto@inamototadashiakiranoMacBook-Pro git_tutorial % git diff
+diff --git a/index.html b/index.html
+index 78f23de..b8686d2 100644
+--- a/index.html
++++ b/index.html
+@@ -1 +1,2 @@
+-<h1>Gitチュートリアル</h1>
+\ No newline at end of file
++<h1>Gitチュートリアル</h1>
++<p1>git diff</p1>
+\ No newline at end of file
+naoakiinamoto@inamototadashiakiranoMacBook-Pro git_tutorial % git add index.html
+naoakiinamoto@inamototadashiakiranoMacBook-Pro git_tutorial % git diff
+naoakiinamoto@inamototadashiakiranoMacBook-Pro git_tutorial % git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   index.html
+
+naoakiinamoto@inamototadashiakiranoMacBook-Pro git_tutorial % git diff --staged
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..b8686d2
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,2 @@
++<h1>Gitチュートリアル</h1>
++<p1>git diff</p1>
+\ No newline at end of file
+naoakiinamoto@inamototadashiakiranoMacBook-Pro git_tutorial % git commit
+hint: Waiting for your editor to close the file... 
+git diffを追記
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#       new file:   index.html
+#
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+
